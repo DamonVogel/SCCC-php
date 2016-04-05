@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.Availability iframe {
+	height: 250px;
+	width: 100%;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #000;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;
+}
+.Reservations iframe {
+	height: 1000px;
+	width: 100%;
+	overflow: visible;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	/* [disabled]border-bottom-width: 0px; */
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	/* [disabled]border-bottom-style: none; */
+	border-left-style: none;
+}

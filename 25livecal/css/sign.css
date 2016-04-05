@@ -1,0 +1,100 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, body {
+	margin: 0px;
+	padding: 0px;
+	/*font-family: "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;*/
+	font-family: Stoke, Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-size: 48px;	
+	
+}
+#header {
+	width: 100%;
+	text-align: center;
+	overflow:hidden;
+	font-size: 110%;
+}
+
+#container {
+	
+	margin-left: auto;
+	margin-right: auto;
+	overflow:hidden;
+	
+	
+}
+.classnum {
+	font-size: 350%;
+	margin-top: 25px;
+	margin-bottom: 25px;	
+	
+}
+#description {
+	font-size: 200%;
+	margin-top: 25px;
+	margin-bottom: 45px;
+	
+	
+}
+
+#profname {
+	height: 120px;
+	margin-top: 45px;
+	/*margin-bottom: 25px;*/
+	font-size: 150%;	
+	
+	
+}
+
+
+.leftcontent {
+	width: 70%;
+	float:left;
+	margin-left: 3%;
+		
+	
+	
+}
+
+.rightcontent {
+	float: right;
+	margin-right: 3%;
+	font-size: 125%;
+		
+}
+
+.rightcontent > div {
+	margin-top: 45px;
+	margin-bottom: 45px;		
+}
+
+.label {
+	
+	
+	text-align: center;
+	
+	
+	}
+	
+#noclass {
+	font-size: 350%;
+	margin-top: 25px;
+	margin-bottom: 25px;	
+	text-align:center;
+	
+}
+.cancelled {
+	height: 900px;
+	width: 1350px;
+	position: fixed;
+	z-index: 9999;
+	left: 0px;
+	top: 0px;
+	background-image: url(../img/cancelled.png) center center no-repeat;
+}
+.footer {
+	height: 100px;
+	width:100%;
+	
+}

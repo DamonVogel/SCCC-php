@@ -1,0 +1,83 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#container {
+	height: 100%;
+	width: 500px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 50px;
+	border: 1px solid rgba(102,102,102,1);
+	overflow: auto;
+}
+#navigation {
+	height: auto;
+	width: 240px;
+	float: left;
+	min-height: 200px;
+	text-align: center;
+	padding-left: 10px;
+}
+.header {
+	clear: both;
+	font-size: large;
+	text-align: center;
+	text-decoration: underline;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: rgba(204,204,204,1);
+	margin-bottom: 20px;
+	border: 1px solid rgba(102,102,102,1);
+	color:#000;
+}
+header a {
+	color:#000;
+}
+.red {
+	color: #C00;
+	background-color: #666;
+	border: thin double #C03;
+}
+#container a  {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+	min-width: 40px;
+	margin: 5px;
+}
+.leftclear {
+	float: left;
+}
+#footer {
+	text-align: center;
+	height: 100px;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	clear: left;
+	float: left;
+	padding-top: 20px;
+	font-size: small;
+	color: #00C;
+}
+#topnav {
+	float: left;
+}
+#spacer {
+	height: 75px;
+	width: 100%;
+	float: left;
+}
+.shadow {
+	-moz-box-shadow:    3px 2px 2px 3px #666;
+	-webkit-box-shadow: 3px 2px 2px 3px #666;
+	box-shadow:         3px 2px 2px 3px #666;
+}
+.shadow2 {
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow:         3px 3px 5px 6px #ccc;
+}
+.centered {
+	margin-right: 20%;
+	margin-left: 20%;
+}

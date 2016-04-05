@@ -1,0 +1,163 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-family: 'Hammersmith One', Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	color: #000;
+	font-size: 45px;
+	background-image: url(../dashboard/img/creampaper/creampaper.png);
+	background-repeat: repeat;
+	min-width: 710px;
+	height: 100%;
+}
+.perroom {
+	float: left;
+	width: 30%;
+	margin-left: 1%;
+	margin-right: 1%;
+	padding-right: 0.3%;
+	padding-left: 0.3%;
+	padding-bottom: 0.3%;
+	clear: right;
+	height: 50%;
+	text-align: center;
+}
+.roomheader {
+	font-size: 1.2em;
+	text-align: center;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	text-transform: capitalize;
+}
+.currently {
+	text-align: center;
+}
+.next {
+}
+.clearme {
+	clear: both;
+	width: 100%;
+	height: 15px;
+}
+#header {
+	font-size: 1.8em;
+	text-align: center;
+	width: 100%;
+	/* [disabled]padding-top: 10px; */
+	padding-bottom: 6px;
+	border-top-style: none;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #000;
+	margin-bottom: 8px;
+	overflow: auto;
+}
+#leftcontent {
+	overflow: auto;
+	height: 100%;
+	/* [disabled]width: 55%; */
+	/* [disabled]float: left; */
+}
+.nextclass {
+}
+.class {
+	margin-bottom: 15px;
+	/* [disabled]padding-bottom: 3px; */
+}
+
+.lcheader {
+	font-size: 1.4em;
+	text-align: center;
+}
+
+#orient-200 {
+	/* [disabled]color: #0C3; */
+	border-color: #0C3;
+}
+
+#orient-201 {
+	/* [disabled]color: #C00; */
+	border-color: #C00;
+}
+#orient-204 {
+	/* [disabled]color: #F60; */
+	border-color: #F60;
+}
+#orient-205 {
+	/* [disabled]color: #FF6; */
+	border-color: #C5B331;
+}
+#orient-233 {
+	/* [disabled]color: #63F; */
+	border-color: #63F;
+}
+#orient-237 {
+	/* [disabled]color: #CCC; */
+	border-color: #666;
+}
+
+#lrorient-200 {
+	background-color: #A5FEAD;
+}
+#container {
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+}
+
+#lrorient-201 {
+	background-color: #FF9D98;
+}
+#lrorient-204 {
+	background-color: #FFBE90;
+}
+#lrorient-205 {
+	background-color: #FFFC9A;
+}
+#lrorient-233 {
+	background-color: #D9BAFF;
+}
+.time {
+	float: right;
+}
+#headertext {
+	float: left;
+	margin-left: 37%;
+}
+#lrorient-237 {
+	
+	background-color: #CCC;
+}
+
+#rhorient-200 {
+	color: #0C3;
+	border-color: #0C3;
+}
+
+#rhorient-201 {
+	color: #C00; 
+	border-color: #C00;
+}
+#rhorient-204 {
+	color: #F60; 
+	border-color: #F60;
+}
+#rhorient-205 {
+	color: #C5B331; 
+	border-color: #C5B331;
+}
+#rhorient-233 {
+	color: #63F; 
+	border-color: #63F;
+}
+#rhorient-237 {
+	color: #666;
+	border-color: #666;
+}
+.then {
+	text-align: center;
+	font-size: 65%;
+}
+.openfor {
+	font-size: smaller;
+}

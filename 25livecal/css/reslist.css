@@ -1,0 +1,57 @@
+@charset "UTF-8";
+/* CSS Document */
+* {
+margin: 0;
+}
+
+body {
+	font-family: 'Hammersmith One', sans-serif;
+	/* [disabled]color: #000; */
+	font-size: 34px;
+	background-image: url(../img/creampaper/creampaper.png);
+	background-repeat: repeat;
+	min-width: 710px;
+}
+
+
+
+#header {
+	font-size: 1.8em;
+	text-align: center;
+	width: 100%;
+	/* [disabled]padding-top: 10px; */
+	padding-bottom: 6px;
+	/*border-top-style: none;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #000;*/
+	margin-bottom: 80px;
+	overflow: auto;
+}
+
+#headertext {
+	float: left;
+	margin-left: 33%;
+}
+#container {
+	
+margin-bottom: 200px;
+	
+}
+.entry {
+	overflow: auto;
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 1.8em;
+}
+
+
+.bottom {
+	height: 200px;
+	width: 100%;
+	margin-top: 200px;
+}
+
+
+
